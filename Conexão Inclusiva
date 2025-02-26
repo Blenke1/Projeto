@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conexão Inclusiva</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body>
+    <header>
+        <img src="conexao.PNG" width="30px" alt="">
+        <h1>Conexão Inclusiva</h1>
+        <div class="nav-links">
+            <a href="cadastre.html">Cadastre-se / Entre</a>
+            <a href="sobre.html">Sobre nós</a>
+            <a href="suporte.html">Suporte</a>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section aria-labelledby="procura">
+            <h2 id="procura">Procure por vagas</h2>
+            <form id="formulario">
+                <label for="titulo">Cargo:</label>
+                <input type="text" id="titulo" name="titulo" aria-required="true">
+
+                <label for="location">Localização:</label>
+                <input type="text" id="location" name="location" aria-required="true">
+
+                <button type="submit">Procurar</button>
+            </form>
+        </section>
+
+        <section class="imagem-interativa">
+            <h2>Conheça nossa comunidade</h2>
+            <img src="" alt="1 imagem e assim por diante, mostrando um pouco de nós.">
+        </section>
+
+        <section aria-labelledby="results">
+            <h2 id="results">Resultado da pesquisa</h2>
+            <ul id="job-results" aria-live="polite">
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Conexão Inclusiva. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
